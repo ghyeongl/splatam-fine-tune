@@ -5,7 +5,7 @@ scenes = ["room0", "room1", "room2",
           "office0", "office1", "office2",
           "office_", "office4"]
 
-primary_device="cuda:0"
+primary_device="cuda:1"
 seed = int(os.environ["SEED"])
 scene_name = scenes[int(os.environ["SCENE_NUM"])]
 

@@ -5,7 +5,7 @@ scenes = ["room_0", "room_1", "room_2",
           "office_0", "office_1", "office_2",
           "office_3", "office_4"]
 
-primary_device="cuda:0"
+primary_device="cuda:1"
 seed = 0
 scene_name = scenes[0]
 

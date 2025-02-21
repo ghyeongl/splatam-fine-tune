@@ -1,6 +1,6 @@
 from os.path import join as p_join
 
-primary_device = "cuda:0"
+primary_device = "cuda:1"
 
 group_name = "Replica"
 run_name = "Post_SplaTAM_Opt"

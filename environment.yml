@@ -12,6 +12,7 @@ dependencies:
   - torchaudio=0.12.1
   - torchvision=0.13.1
   - tqdm=4.65.0
+  - pytorch-msssim
   - Pillow
   - faiss-gpu
   - opencv
@@ -26,6 +27,6 @@ dependencies:
   - pip:
     - lpips
     - open3d==0.16.0
-    - torchmetrics
+    - torchmetrics==1.5.2
     - cyclonedds
     - git+https://github.com/JonathonLuiten/diff-gaussian-rasterization-w-depth.git@cb65e4b86bc3bd8ed42174b72a62e8d3a3a71110
